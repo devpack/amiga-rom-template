@@ -15,4 +15,4 @@ $(BIN): $(SRC)
 	$(VASM) $(SRC) $(VASM_FLAGS) -o $(BIN)
 
 run: run-custom
-	fs-uae --chip_memory=1024 --kickstart_file=`pwd`/$(BIN) --joystick_port_1=none --amiga_model=A1200 --slow_memory=1792 --remote_debugger=200 --use_remote_debugger=true --automatic_input_grab=0
+	fs-uae --chip_memory=512 --kickstart_file=`pwd`/$(BIN) --joystick_port_1=none --amiga_model=A500 --slow_memory=512 --remote_debugger=200 --use_remote_debugger=true --automatic_input_grab=0

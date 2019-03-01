@@ -1,4 +1,4 @@
-        org $fc0000             ; System ROM image location
+        org $f80000             ; System ROM image location
 
 custom=$dff000
 bplcon0=$100
